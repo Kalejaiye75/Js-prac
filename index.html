@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script defer src="script.js"></script>
+    <title>Tiimer App</title>
+</head>
+<body>
+    <section>
+        <h1>Timer APP</h1>
+        <div class="inp-sec">
+           <input type="number" id="input-h"> 
+           <input type="number" id="input-m">
+           <input type="number" id="input-s">
+        </div>
+        <div class="btn-sec">
+            <button id="start-btn" onclick="startCounting()"> Start </button>
+            <button id="pause-btn" onclick="pauseCounting()"> Pause </button>
+            <button id="stop-btn" onclick="stopCounting()"> Stop </button>
+        </div>
+        <p id="currentTime">current time: </p>
+    </section>
+</body>
+</html>
